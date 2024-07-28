@@ -254,6 +254,7 @@ body.nav-active { overflow: hidden; }
   font-size: 17px;
   font-weight: 600;
   margin: auto;
+
   display:flex;
   align-items:center;
   justify-content:center;
@@ -544,7 +545,9 @@ body.nav-active { overflow: hidden; }
   #SERVICE
 \*-----------------------------------*/
 
-.service { text-align: center; }
+.service { text-align: center; 
+
+}
 
 .service .section-title { margin-block-end: 50px;
   margin: 0 auto;
@@ -558,12 +561,15 @@ body.nav-active { overflow: hidden; }
   padding: 40px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
-
+  align-items: center;
+  align-content:center;
+justify-content :center;
+justify-items:auto;
 
   align-items: center;
   
    margin-block: 5px 10px;
-  justify-content:right;
+block-size: 460px ;
 
   
 }
@@ -591,9 +597,9 @@ body.nav-active { overflow: hidden; }
    }
 
 .service-card .btn-text {
-  display: flex;
+  display:flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   gap: 4px;
   margin-block-start: 10px;
   color: var(--violet-blue-crayola);
@@ -731,7 +737,8 @@ body.nav-active { overflow: hidden; }
   height: 100%;
 }
 
-.project-card .card-content { padding: 30px; }
+.project-card .card-content { padding: 30px; 
+}
 
 .project-card .card-title { transition: var(--transition-1);
 align-content:center ; }
@@ -742,7 +749,7 @@ align-content:center ; }
    margin-block: 16px 20px; 
    justify-content: space-around;
    align-items: center;
-
+   font-weight: 400;
   
 }
 
@@ -1169,6 +1176,7 @@ align-content:center ; }
   }
 
 }
+
 
 
 
